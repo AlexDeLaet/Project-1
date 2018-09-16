@@ -1,0 +1,7 @@
+C:\Users\delae\Desktop\Xavier\Classes\Fall 18\CS\C++\Project-1-master\MaryPoppinsTote.cpp:6:8: error: redefinition of 'class MaryPoppinsTote'
+  class MaryPoppinsTote{
+        ^~~~~~~~~~~~~~~
+In file included from C:\Users\delae\Desktop\Xavier\Classes\Fall 18\CS\C++\Project-1-master\MaryPoppinsTote.cpp:3:0:
+C:\Users\delae\Desktop\Xavier\Classes\Fall 18\CS\C++\Project-1-master\MaryPoppinsToteInt.hpp:5:7: error: previous definition of 'class MaryPoppinsTote'
+ class MaryPoppinsTote{
+       ^~~~~~~~~~~~~~~
