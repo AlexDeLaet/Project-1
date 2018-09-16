@@ -1,4 +1,4 @@
-#pregma
+
 #include <iostream>
 #include MaryPoppinsTote.hpp
 using namespace std;
