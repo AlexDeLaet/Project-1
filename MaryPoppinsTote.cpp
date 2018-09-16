@@ -1,26 +1,17 @@
+#pregma
 #include <iostream>
+#include MaryPoppinsTote.hpp
 using namespace std;
 
 class MarryPoppinsTote{
 
-public:
+
 int toteSize;
 //MarryPoppinsTote int *tote;
 int tote[];
 
-private:
-
 MarryPoppinsTote(){
-  //Initialize
-
-  //check to see if array tote has any objects
-  if(tote == NULL){
-  tote = new int tote[1];
-  }
-  else{
-  //int newToteSize = toteSize;
-    MarryPoppinsTote* newTote = new MarryPoppinsTote[toteSize + 1];
-  }
+  
 
 //Copy Constructor: Coppying data from original Tote to newTote
 MarryPoppinsTote(const MarryPoppinsTote & other){
@@ -35,23 +26,17 @@ MarryPoppinsTote(const MarryPoppinsTote & other){
 
 //Deconstructor to delete orignal tote array
 ~MarryPoppinsTote(){
-  delete[] tote;
+  if(tote){
+    delete(tote);
+    }
   }
 
 void place(int item){
 
-
   }
 
 int search(int item){
-  int count = 0;
-  for(int i = 0; i<tote.size; i++ ){
-      if(item == tote[i]){
-        count = count +1;  
-      }
-
-    }
-    return count;
+  for(int i = 0; i<tote.size )
 
   }
 
@@ -62,5 +47,17 @@ int reach(){
 }
 
 MarryPoppinsTote& operator=(const MarryPoppinsTote & other){
+  if(index >= 0 && index < size){
+            return ary[index];
+        }
+        else{
+            throw(1);
+        }
+    }
 
   }
+
+
+
+
+};// end class
